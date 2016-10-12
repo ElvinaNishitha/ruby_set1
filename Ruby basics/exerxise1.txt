@@ -11,3 +11,4 @@
   c) Push the contents of "result" that you obtain in first step (a) to "my_details".
 
 3) Write a ruby program inorder to determine whether the given number is odd or even.
+

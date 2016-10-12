@@ -4,20 +4,15 @@
 # Make use of the below code and get the results
 
 class Mobiles
-
-  def initialize
-  end
-
+      
+def initialize
+    mobiles={:Samsung => '10,000', :asus => '15,000', :Nokia => "15000", :Apple => "67990"}
+    input=gets.chomp.to_sym
+    puts "#{mobiles[input]}"
+ end
 end
 
-@mobiles = {
-   10000 => "samsung", 
-   15000=>"motorola", 
-   60000=> "apple" 
-}
-num=gets.to_i
-puts "#{@mobiles[num]}"
 
-#brand = 'Input From the user'
 
-rate = Mobiles.new
+puts "Enter any number brand"
+Mobiles.new
